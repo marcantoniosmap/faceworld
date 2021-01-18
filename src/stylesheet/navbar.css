@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: beige;
+  box-shadow: 0px 4px 4px #b6b6b6;
+}
+
+.nav-items {
+  width: 50%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.value {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 5px;
+}

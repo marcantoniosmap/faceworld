@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.CodeMirror {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+iframe {
+  height: 100vh !important ;
+}
+.sandpack-CodeMirror__container {
+  resize: horizontal;
+  overflow: auto;
+  width: 100px !important;
+  min-width: 100px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  text-decoration: none;
+}
+.text-white {
+  color: white;
+}
+.file_icons > i {
+  font-size: 15px;
+  cursor: pointer;
+}
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.file_icons > i:hover .tooltiptext {
+  visibility: visible;
+}
+.blending_input {
+  background-color: #3a4042;
+  color: white;
+  border-radius: 3px;
+  border: white 1px solid;
+  width: 140px;
+}
+.pl-35 {
+  padding-left: 1em;
+}
+
+.react-monaco-editor-container {
+  overflow: hidden;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+.overflow-none {
+  overflow: hidden;
+}
+
+.icons {
+  color: grey;
+}
+.icons > svg {
+  margin: 0 6px;
+}
+
+#trashcan:hover {
+  color: rgb(155, 34, 34);
+}
+#edit:hover {
+  color: rgb(95, 93, 230);
+}
+#onTimelineEye:hover {
+  color: orange;
+}
+
+#admin {
+  color: green;
+}
+
+.projectType {
+  color: white;
+  background-color: darkgreen;
+  border-radius: 3px;
+  padding: 4px 8px;
+}
+
+a {
+  cursor: pointer;
+}
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+.my-float :hover {
+  color: white !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #000 !important;
+}
+.card-image-top {
+  display: none;
+}
+@media all and (max-width: 500px) {
+  .card-image-top {
+    display: none;
+  }
+}
+
+#user-icon {
+  color: grey;
+  font-size: 50px;
+  padding-left: 8px;
+  padding-top: 8px;
+}
